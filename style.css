@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   
+    box-sizing: border-box;
+    background: linear-gradient(white,rgb(137, 231, 238), rgb(250, 246, 250));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+    padding: 20px;
+}
+.container{
+    width: 850px;
+    height: 1050px;
+    background-color: antiquewhite;
+    display: flex;
+    
+}
+.section_one {
+    height:1050px;
+    width: 350px;
+    background-color: black;
+    padding: 10px;
+   
+}
+.section_two {
+    height:1050px;
+    width: 500px;
+    background-color: white;
+    padding: 10px;
+    
+}
+@media screen and (max-width: 700px){
+    .container{
+        height: 1750px;
+        width: 736px;
+        display: block;
+       
+    }
+    .section_one{
+        height: 800px;
+        width: 368px;
+        padding: 10px;
+        margin-left: 5px;
+      
+    }
+    .section_two{
+        height: 970px;
+        width: 368px;
+        padding: 10px;
+        margin-left: 5px;
+        
+    }
+}
+
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    margin-top: 10%;
+    border-radius: 50%;
+   
+    box-shadow: 0 0 5px  rgb(80, 233, 233),
+                0 0 10px  rgb(80, 233, 233),
+                0 0 20px  rgb(80, 233, 233);
+  
+    margin-bottom: 20px;
+}
+
+.profile-text{
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-bottom: 20px;
+border-bottom: 1px solid rgb(206, 209, 212);
+
+}
+.logo{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+h1{ font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white; 
+    text-shadow: 0 0 15px rgb(97, 225, 232),
+                  0 0 15px rgb(105, 227, 236),
+                  0 0 15px rgb(125, 205, 214);
+}
+h2 {
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color:rgb(3, 2, 2);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgb(80, 233, 233);
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+p {
+    font-size: 18px;
+   text-align:justify; hyphens: auto;
+   color: rgb(253, 247, 247);
+}
+li, ul{
+    color: black;
+    padding: 5px;
+    list-style-type:disc;
+    list-style-position: inside;
+}
+
+#skills-section {  
+    display: none;  
+}
+#experience-section {  
+    display: none;  
+}
+button {
+    width: 30%;
+    height: 4%;
+    border-radius: 10px;
+    border: 2px solid rgb(80, 233, 233);
+    box-shadow: 0 0 15px  rgb(80, 233, 233);
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+}
+button:hover {
+    color: black;
+    background-color: rgb(66, 218, 238);
+    box-shadow: 0 0 15px  rgb(10, 10, 10),
+                 0 0 30px  rgb(10, 10, 10);
+                 
+    border: 1px solid black;
+}  
