@@ -15,20 +15,20 @@ body{
 }
 .container{
     width: 850px;
-    height: 1050px;
+    height: 1200px;
     background-color: antiquewhite;
     display: flex;
     
 }
 .section_one {
-    height:1050px;
+    height:1200px;
     width: 350px;
-    background-color: black;
+    background: rgb(23, 22, 22);
     padding: 10px;
    
 }
 .section_two {
-    height:1050px;
+    height:1200px;
     width: 500px;
     background-color: white;
     padding: 10px;
